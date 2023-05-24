@@ -1,13 +1,16 @@
+/*border settings*/
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
 
+/*background colour of page*/
 body {
     background-color: #d9dcd6;
 }
 
+/*header stle and colouring, font family holding several font names as a fallback system, if the browser does not support the first font it will try the next one*/
 .header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -15,15 +18,13 @@ body {
     color: #ffffff;
 }
 
+/*website name at the top of the page*/
 .header h1 {
     display: inline-block;
     font-size: 48px;
 }
 
-.header h1 .seo {
-    color: #d9dcd6;
-}
-
+/*nav-links in the nav on the page*/
 .header div {
     padding-top: 15px;
     margin-right: 20px;
@@ -32,24 +33,29 @@ body {
     font-size: 20px;
 }
 
+/*nav-links list style*/
 .header div ul {
     list-style-type: none;
 }
 
+/*nav-links margin and display style*/
 .header div ul li {
     display: inline-block;
     margin-left: 25px;
 }
 
+/*nav-links text colour*/
 a {
     color: #ffffff;
     text-decoration: none;
 }
 
+/*the pages general text colour*/
 p {
     font-size: 16px;
 }
 
+/*figure layout with image*/
 .hero {
     height: 800px;
     width: 100%;
@@ -59,22 +65,26 @@ p {
     background-position: center;
 }
 
+/*makes all items in the float-left class will be put on the left side of their section*/
 .float-left {
     float: left;
     margin-right: 25px;
 }
 
+/*makes all items in the float-right class will be put on the right side of their section*/
 .float-right {
     float: right;
     margin-left: 25px;
 }
 
+/*style and layout of the content class section*/
 .content {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
 
+/*style and layout of the benefits-class in the aside section of the page*/
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -86,55 +96,27 @@ p {
     background-color: #2589bd;
 }
 
-.benefit-lead {
+/*text colour and margin within the benefit-class in the aside section*/
+.benefit-lead, .benefit-brand, .benefit-cost {
     margin-bottom: 32px;
     color: #ffffff;
 }
 
-.benefit-brand {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-.benefit-cost {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-.benefit-lead h3 {
+/*heading text colour and margin within the benefit-class in the aside section*/
+.benefit-lead h3, .benefit-brand h3, .benefit-cost h3 {
     margin-bottom: 10px;
     text-align: center;
 }
 
-.benefit-brand h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-.benefit-cost h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-.benefit-lead img {
+/*image layout and display in the aside section*/
+.benefit-lead img, .benefit-brand img, .benefit-cost img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
-.benefit-brand img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-
-.benefit-cost img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-
-.search-engine-optimization {
+/*text style, colour and layout within the "section" part of the page*/
+.search-engine-optimization, .online-reputation-management, .social-media-marketing {
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
@@ -143,51 +125,18 @@ p {
     color: #ffffff;
 }
 
-.online-reputation-management {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-.social-media-marketing {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-.search-engine-optimization img {
+/*image layout within the "section" part of the page*/
+.search-engine-optimization img, .online-reputation-management img, .social-media-marketing img {
     max-height: 200px;
 }
 
-.online-reputation-management img {
-    max-height: 200px;
-}
-
-.social-media-marketing img {
-    max-height: 200px;
-}
-
-.search-engine-optimization h2 {
+/*heading text style and font size within the "section" part of the page*/
+.search-engine-optimization h2, .online-reputation-management h2, .social-media-marketing h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
 
-.online-reputation-management h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-.social-media-marketing h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
+/*footer text style and layout*/
 .footer {
     padding: 30px;
     clear: both;
@@ -195,6 +144,7 @@ p {
     text-align: center;
 }
 
+/*footer text style for the heading of the footer*/
 .footer h2 {
     font-size: 20px;
 }
